@@ -1,164 +1,149 @@
-/* Main elements setup */
+/* Setup for different screen sizes */
 @media screen and (min-width: 100px) {
-    body {
-        background-color: rgb(252, 252, 252);
-    }
-    
-    /* Column's Settup */
-    section.column {
-        height: 100%;
-        margin: 0 auto;
-        padding-top: 100px;
-    }
-    
-    div.cars {
-        height: 100%;
-        width: 350px;
-        margin: 0 auto;
-        border-radius: 25px;
-        display: flex;
-        flex-direction: column;
-        text-align: left;
-    }
-    /* Background colors per type & their border radius */
-    div #sedans {
-        background-color: hsl(31, 77%, 52%);
-        border-radius: 15px 15px 0px 0px;
-    }
-
-    div #suv {
-        background-color: hsl(184, 100%, 22%);
-    }
-
-    div #luxery {
-        background-color: hsl(179, 100%, 13%);
-        border-radius: 0px 0px 15px 15px;
-    }
-    /* CSS from OG index.html file */
-    div.attribution { 
-        font-family: 'Courier New', Courier, monospace;
-        padding-top: 20px;
-        font-size: 11px; 
-        text-align: center; 
-    }
-    
-    div.attribution a { 
-        color: hsl(228, 45%, 44%); 
-    }  
+	body {
+		background-color: rgb(252, 252, 252);
+	}
+	/* Column's Settup */
+	section.column {
+		height: 100%;
+		margin: 0 auto;
+		padding-top: 100px;
+	}
+	div.cars {
+		height: 100%;
+		width: 350px;
+		margin: 0 auto;
+		border-radius: 25px;
+		display: flex;
+		flex-direction: column;
+		text-align: left;
+	}
+	/* Background colors, per type & their border radius */
+	div #sedans {
+		background-color: hsl(31, 77%, 52%);
+		border-radius: 15px 15px 0px 0px;
+	}
+	div #suv {
+		background-color: hsl(184, 100%, 22%);
+	}
+	div #luxery {
+		background-color: hsl(179, 100%, 13%);
+		border-radius: 0px 0px 15px 15px;
+	}
+	/* CSS from OG index.html file */
+	div.attribution {
+		font-family: 'Courier New', Courier, monospace;
+		padding-top: 20px;
+		font-size: 11px;
+		text-align: center;
+	}
+	div.attribution a {
+		color: hsl(228, 45%, 44%);
+	}
 }
 
 @media screen and (min-width: 900px) {
-    body {
-        background-color: rgb(252, 252, 252);
-    }
-    
-    /* Column's Settup */
-    section.column {
-        height: 500px;
-        margin: 0 auto;
-        padding-top: 200px;
-    }
-    
-    div.cars {
-        height: 100%;
-        width: 900px;
-        margin: 0 auto;
-        border-radius: 25px;
-        display: flex;
-        flex-direction: row;
-        text-align: left;
-    }
-
-    /* Background colors per type & their border radius */
-    div #sedans {
-        background-color: hsl(31, 77%, 52%);
-        border-radius: 15px 0px 0px 15px;
-    }
-
-    div #suv {
-        background-color: hsl(184, 100%, 22%);
-    }
-
-    div #luxery {
-        background-color: hsl(179, 100%, 13%);
-        border-radius: 0px 15px 15px 0px;
-    }
-    /* CSS from OG index.html file */
-    .attribution { 
-        font-family: 'Courier New', Courier, monospace;
-        padding-top: 20px;
-        font-size: 11px; 
-        text-align: center; 
-    }
-
-    .attribution a { 
-        color: hsl(228, 45%, 44%); 
-    }
+	body {
+		background-color: rgb(252, 252, 252);
+	}
+	/* Column's Settup */
+	section.column {
+		height: 500px;
+		margin: 0 auto;
+		padding-top: 200px;
+	}
+	div.cars {
+		height: 100%;
+		width: 900px;
+		margin: 0 auto;
+		border-radius: 25px;
+		display: flex;
+		flex-direction: row;
+		text-align: left;
+	}
+	/* Background colors per type & their border radius */
+	div #sedans {
+		background-color: hsl(31, 77%, 52%);
+		border-radius: 15px 0px 0px 15px;
+	}
+	div #suv {
+		background-color: hsl(184, 100%, 22%);
+	}
+	div #luxery {
+		background-color: hsl(179, 100%, 13%);
+		border-radius: 0px 15px 15px 0px;
+	}
+	/* CSS from OG index.html file */
+	.attribution {
+		font-family: 'Courier New', Courier, monospace;
+		padding-top: 20px;
+		font-size: 11px;
+		text-align: center;
+	}
+	.attribution a {
+		color: hsl(228, 45%, 44%);
+	}
 }
+
 /* Text Main Setup*/
 h1 {
-    font-family: 'Big Shoulders Display', cursive;
-    font-size: 30px;
+	font-family: 'Big Shoulders Display', cursive;
+	font-size: 30px;
 }
-    
 p {
-    line-height: 25px;
+	line-height: 25px;
 }
-    
 p, button {
-    font-family: 'Lexend Deca', sans-serif;
-    font-size: 15px;
+	font-family: 'Lexend Deca', sans-serif;
+	font-size: 15px;
 }
 
 /* Used for placing content within their columns */
 .type article {
-    margin: 50px;
+	margin: 50px;
 }
-
 .type button {
-    margin: 50px;
-    margin-top: -50px;
+	margin: 50px;
+	margin-top: -50px;
 }
-
 .type img {
-    margin-top: 50px;
-    margin-left: 50px;
+	margin-top: 50px;
+	margin-left: 50px;
 }
 
 /* Button settings*/
-div.type h1,p {
-    color: white;
+div.type h1, p {
+	color: white;
 }
 
 button.learn {
-    height: 50px;
-    width: 150px;
-    background-color: white;
-    border-color: white;
-    border-style: solid;
-    border-radius: 25px;
-    border-width: 2px;
+	height: 50px;
+	width: 150px;
+	background-color: white;
+	border-color: white;
+	border-style: solid;
+	border-radius: 25px;
+	border-width: 2px;
 }
+
 /* Button text color (non hover) */
 #sedans button {
-    color: hsl(31, 77%, 52%);
+	color: hsl(31, 77%, 52%);
 }
-
 #suv button {
-    color: hsl(184, 100%, 22%);
+	color: hsl(184, 100%, 22%);
 }
-
 #luxery button {
-    color: hsl(179, 100%, 13%);
+	color: hsl(179, 100%, 13%);
 }
 
 /* Button state after hover
     - Removing background
     - Making text color "White"
 */
-#sedans button:hover,
-#suv button:hover,
+#sedans button:hover, 
+#suv button:hover, 
 #luxery button:hover {
-    color: white;
-    background: none;
+	color: white;
+	background: none;
 }
