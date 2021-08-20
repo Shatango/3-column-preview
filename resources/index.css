@@ -1,30 +1,82 @@
+body {
+    background-color: rgb(252, 252, 252);
+}
+
 h1 {
     font-family: 'Big Shoulders Display', cursive;
     font-size: 30px;
 }
 
 p {
+    line-height: 25px;
+}
+
+p, button {
     font-family: 'Lexend Deca', sans-serif;
     font-size: 15px;
 }
 
 /* Column Row */
 section.column {
+    height: 500px;
+    margin: 0 auto;
+}
+
+div.cars {
+    height: 100%;
+    width: 900px;
+    margin: 0 auto;
+    border-radius: 25px;
     display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+
+
+div #sedans {
+    background: hsl(31, 77%, 52%);
+    border-radius: 15px 0px 0px 15px;
+}
+
+div #suv {
+    background: hsl(184, 100%, 22%);
+}
+
+div #luxery {
+    background: hsl(179, 100%, 13%);
+    border-radius: 0px 15px 15px 0px;
+}
+
+.type article {
+    margin: 50px;
+}
+
+.type button {
+    margin: 50px;
+    margin-top: -50px;
+}
+
+div.type img {
+    margin-top: 50px;
+    margin-left: 50px;
 }
 
 /* Button */
-div.type h1, p {
+div.type h1,p {
     color: white;
 }
 
+div.type button {
+    color: inherit;
+}
+
 button.learn {
-    height: 35px;
-    width: 100px;
-    background: white;
+    height: 50px;
+    width: 150px;
+    background-color: white;
     border-color: white;
     border-style: solid;
-    border-radius: 15px;
+    border-radius: 25px;
     border-width: 2px;
 }
 
@@ -33,20 +85,7 @@ button.learn:hover {
     background: none;
     border-color: white;
     border-style: solid;
-    border-radius: 15px;
     border-width: 2px;
-}
-
-#sedans{
-    background-color: hsl(31, 77%, 52%);
-}
-
-#suv {
-    background-color: hsl(184, 100%, 22%);
-}
-
-#luxery {
-    background-color: hsl(179, 100%, 13%);
 }
 
 /* CSS from index file */
