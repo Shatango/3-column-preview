@@ -1,7 +1,7 @@
 /* Setup for different screen sizes */
 @media screen and (min-width: 100px) {
 	body {
-		background-color: rgb(252, 252, 252);
+		background-color: hsl(0, 0%, 95%);
 	}
 	/* Column's Settup */
 	section.column {
@@ -44,7 +44,7 @@
 
 @media screen and (min-width: 900px) {
 	body {
-		background-color: rgb(252, 252, 252);
+		background-color: hsl(0, 0%, 95%);
 	}
 	/* Column's Settup */
 	section.column {
@@ -113,13 +113,13 @@ p, button {
 
 /* Button settings*/
 div.type h1, p {
-	color: white;
+	color: hsl(0, 0%, 95%);
 }
 button.learn {
 	height: 50px;
 	width: 150px;
-	background-color: white;
-	border-color: white;
+	background-color: hsl(0, 0%, 95%);
+	border-color: hsl(0, 0%, 95%);
 	border-style: solid;
 	border-radius: 25px;
 	border-width: 2px;
@@ -143,6 +143,6 @@ button.learn {
 #sedans button:hover, 
 #suv button:hover, 
 #luxery button:hover {
-	color: white;
+	color: hsl(0, 0%, 95%);
 	background: none;
 }
